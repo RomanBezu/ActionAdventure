@@ -1,6 +1,6 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
-#include "ActionAdventureCharacter.h"
+#include "AAPlayerCharacter.h"
 #include "Engine/LocalPlayer.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
@@ -16,7 +16,7 @@ DEFINE_LOG_CATEGORY(LogTemplateCharacter);
 //////////////////////////////////////////////////////////////////////////
 // AActionAdventureCharacter
 
-AActionAdventureCharacter::AActionAdventureCharacter()
+AAAPlayerCharacter::AAAPlayerCharacter()
 {
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
@@ -54,7 +54,7 @@ AActionAdventureCharacter::AActionAdventureCharacter()
 	// are set in the derived blueprint asset named ThirdPersonCharacter (to avoid direct content references in C++)
 }
 
-void AActionAdventureCharacter::BeginPlay()
+void AAAPlayerCharacter::BeginPlay()
 {
 	// Call the base class  
 	Super::BeginPlay();
@@ -72,7 +72,7 @@ void AActionAdventureCharacter::BeginPlay()
 //////////////////////////////////////////////////////////////////////////
 // Input
 
-void AActionAdventureCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+void AAAPlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	// Set up action bindings
 	if (UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(PlayerInputComponent)) {
@@ -82,10 +82,10 @@ void AActionAdventureCharacter::SetupPlayerInputComponent(UInputComponent* Playe
 		EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Completed, this, &ACharacter::StopJumping);
 
 		// Moving
-		EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &AActionAdventureCharacter::Move);
+		EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &AAAPlayerCharacter::Move);
 
 		// Looking
-		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &AActionAdventureCharacter::Look);
+		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &AAAPlayerCharacter::Look);
 	}
 	else
 	{
@@ -93,7 +93,7 @@ void AActionAdventureCharacter::SetupPlayerInputComponent(UInputComponent* Playe
 	}
 }
 
-void AActionAdventureCharacter::Move(const FInputActionValue& Value)
+void AAAPlayerCharacter::Move(const FInputActionValue& Value)
 {
 	// input is a Vector2D
 	FVector2D MovementVector = Value.Get<FVector2D>();
@@ -116,7 +116,7 @@ void AActionAdventureCharacter::Move(const FInputActionValue& Value)
 	}
 }
 
-void AActionAdventureCharacter::Look(const FInputActionValue& Value)
+void AAAPlayerCharacter::Look(const FInputActionValue& Value)
 {
 	// input is a Vector2D
 	FVector2D LookAxisVector = Value.Get<FVector2D>();

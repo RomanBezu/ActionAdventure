@@ -2014,3 +2014,10 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.10.15-12.43.48:243][266]LogSlate: Window 'IMC_Default' being destroyed
 [2023.10.15-12.43.48:246][266]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
 [2023.10.15-12.43.48:246][266]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.15-12.48.00:536][230]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2023.10.15-12.52.16:253][998]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.10.15-12.52.18:583][  5]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.10.15-12.52.18:583][  5]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2023.10.15-12.53.15:272][175]LogLiveCoding: Display: Starting Live Coding compile.
+[2023.10.15-12.53.17:265][181]Display: Reload/Re-instancing Complete: No object changes detected
+[2023.10.15-12.53.17:265][181]LogLiveCoding: Error: Live coding failed, please see Live console for more information
