@@ -1416,3 +1416,7 @@ LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
 [2023.10.15-10.47.58:479][  1]LogAssetRegistry: AssetRegistryGather time 0.6062s: AssetDataDiscovery 0.0381s, AssetDataGather 0.4989s, StoreResults 0.0692s.
 [2023.10.15-10.47.58:498][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
 [2023.10.15-10.47.58:521][  2]LogD3D12RHI: Cannot end block when stack is empty
+[2023.10.15-10.49.21:699][322]LogSlate: Window 'Content Browser' being destroyed
+[2023.10.15-10.49.21:701][322]LogSlate: Window 'Content Browser' being destroyed
+[2023.10.15-10.49.49:929][896]LogDerivedDataCache: C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.132 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1924 files in 1616 folders with total size 245 MiB.
+[2023.10.15-10.52.15:066][714]LogSlate: Window 'Revision Control Login' being destroyed
