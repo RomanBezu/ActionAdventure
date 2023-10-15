@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\ue_projects\\ue5\\actionadventure\\actionadventure\\ue5\\actionadventure\\source\\actionadventure\\gamecore\\aagameinstance.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\ue_projects\\ue5\\actionadventure\\actionadventure\\ue5\\actionadventure\\intermediate\\build\\win64\\x64\\actionadventureeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "e:\\ue_projects\\ue5\\actionadventure\\actionadventure\\ue5\\actionadventure\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\actionadventure\\definitions.actionadventure.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

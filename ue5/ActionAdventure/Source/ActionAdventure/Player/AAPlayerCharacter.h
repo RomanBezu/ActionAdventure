@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "Logging/LogMacros.h"
-#include "ActionAdventureCharacter.generated.h"
+#include "AAPlayerCharacter.generated.h"
 
 class USpringArmComponent;
 class UCameraComponent;
