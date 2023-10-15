@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\ue_projects\\ue5\\actionadventure\\actionadventure\\ue5\\actionadventure\\intermediate\\build\\win64\\unrealeditor\\inc\\actionadventure\\uht\\actionadventurecharacter.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\ue_projects\\ue5\\actionadventure\\actionadventure\\ue5\\actionadventure\\intermediate\\build\\win64\\x64\\actionadventureeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "e:\\ue_projects\\ue5\\actionadventure\\actionadventure\\ue5\\actionadventure\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\actionadventure\\definitions.actionadventure.h",
+            "e:\\ue_projects\\ue5\\actionadventure\\actionadventure\\ue5\\actionadventure\\source\\actionadventure\\actionadventurecharacter.h",
+            "c:\\program files (x86)\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
+            "c:\\program files (x86)\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
+            "c:\\program files (x86)\\ue_5.3\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
+            "c:\\program files (x86)\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\iriscore\\uht\\irisobjectreferencepackagemap.generated.h",
+            "c:\\program files (x86)\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
+            "c:\\program files (x86)\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
+            "c:\\program files (x86)\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
+            "c:\\program files (x86)\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
+            "e:\\ue_projects\\ue5\\actionadventure\\actionadventure\\ue5\\actionadventure\\intermediate\\build\\win64\\unrealeditor\\inc\\actionadventure\\uht\\actionadventurecharacter.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

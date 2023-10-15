@@ -41,10 +41,16 @@
     <ClInclude Include="..\..\Source\ActionAdventure\ActionAdventure.h">
       <Filter>Source\ActionAdventure</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\ActionAdventure\EmptyClass.cpp">
+    <ClCompile Include="..\..\Source\ActionAdventure\ActionAdventureCharacter.cpp">
       <Filter>Source\ActionAdventure</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\ActionAdventure\EmptyClass.h">
+    <ClInclude Include="..\..\Source\ActionAdventure\ActionAdventureCharacter.h">
+      <Filter>Source\ActionAdventure</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ActionAdventure\ActionAdventureGameMode.cpp">
+      <Filter>Source\ActionAdventure</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionAdventure\ActionAdventureGameMode.h">
       <Filter>Source\ActionAdventure</Filter>
     </ClInclude>
   </ItemGroup>

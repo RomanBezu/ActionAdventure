@@ -73,7 +73,7 @@
 /DBUILD_VERSION=++UE5+Release-5.3-CL-28051148
 /DBUILD_ICON_FILE_NAME="\"..\\Build\\Windows\\Resources\\Default.ico\""
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
-/DPROJECT_PRODUCT_NAME="Third Person BP Game Template"
+/DPROJECT_PRODUCT_NAME="Third Person Game Template"
 /DPROJECT_PRODUCT_IDENTIFIER=ActionAdventure
 /fo "E:\UE_Projects\UE5\ActionAdventure\ActionAdventure\ue5\ActionAdventure\Intermediate\Build\Win64\x64\UnrealEditor\Development\ActionAdventure\Default.rc2.res"
 "..\Build\Windows\Resources\Default.rc2"
