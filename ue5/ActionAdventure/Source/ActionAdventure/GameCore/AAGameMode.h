@@ -13,6 +13,16 @@ class AAAGameMode : public AGameModeBase
 
 public:
 	AAAGameMode();
+
+
+protected:
+
+	UPROPERTY(VisibleInstanceOnly, BlueprintReadOnly, Category = "")
+	FString TestString;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	float TestFloat;
+	
 };
 
 
