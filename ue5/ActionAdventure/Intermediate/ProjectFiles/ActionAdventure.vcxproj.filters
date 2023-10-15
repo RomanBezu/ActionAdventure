@@ -1485,10 +1485,10 @@
     <Filter Include="Source\ActionAdventure\AbilitySystem\Attributes">
       <UniqueIdentifier>{98E628EE-4904-3950-8288-4585F72EC455}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\ActionAdventure\AbilitySystem\Attributes\AAAtributeSet.cpp">
+    <ClCompile Include="..\..\Source\ActionAdventure\AbilitySystem\Attributes\AAAttributeSet.cpp">
       <Filter>Source\ActionAdventure\AbilitySystem\Attributes</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\ActionAdventure\AbilitySystem\Attributes\AAAtributeSet.h">
+    <ClInclude Include="..\..\Source\ActionAdventure\AbilitySystem\Attributes\AAAttributeSet.h">
       <Filter>Source\ActionAdventure\AbilitySystem\Attributes</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\ActionAdventure\AbilitySystem\Attributes\AADamageAttributeSet.cpp">
