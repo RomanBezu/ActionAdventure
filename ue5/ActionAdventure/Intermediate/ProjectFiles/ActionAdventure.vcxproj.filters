@@ -1473,17 +1473,119 @@
     <ClInclude Include="..\..\Source\ActionAdventure\ActionAdventure.h">
       <Filter>Source\ActionAdventure</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\ActionAdventure\ActionAdventureCharacter.cpp">
-      <Filter>Source\ActionAdventure</Filter>
+    <Filter Include="Source\ActionAdventure\AbilitySystem">
+      <UniqueIdentifier>{A03B137E-2DEF-3C35-8248-FF927FCB0904}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ActionAdventure\AbilitySystem\AAAbilitySystem.cpp">
+      <Filter>Source\ActionAdventure\AbilitySystem</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\ActionAdventure\ActionAdventureCharacter.h">
-      <Filter>Source\ActionAdventure</Filter>
+    <ClInclude Include="..\..\Source\ActionAdventure\AbilitySystem\AAAbilitySystem.h">
+      <Filter>Source\ActionAdventure\AbilitySystem</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\ActionAdventure\ActionAdventureGameMode.cpp">
-      <Filter>Source\ActionAdventure</Filter>
+    <Filter Include="Source\ActionAdventure\AbilitySystem\Attributes">
+      <UniqueIdentifier>{98E628EE-4904-3950-8288-4585F72EC455}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ActionAdventure\AbilitySystem\Attributes\AAAtributeSet.cpp">
+      <Filter>Source\ActionAdventure\AbilitySystem\Attributes</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\ActionAdventure\ActionAdventureGameMode.h">
-      <Filter>Source\ActionAdventure</Filter>
+    <ClInclude Include="..\..\Source\ActionAdventure\AbilitySystem\Attributes\AAAtributeSet.h">
+      <Filter>Source\ActionAdventure\AbilitySystem\Attributes</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ActionAdventure\AbilitySystem\Attributes\AADamageAttributeSet.cpp">
+      <Filter>Source\ActionAdventure\AbilitySystem\Attributes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionAdventure\AbilitySystem\Attributes\AADamageAttributeSet.h">
+      <Filter>Source\ActionAdventure\AbilitySystem\Attributes</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ActionAdventure\AbilitySystem\Attributes\AAHealthAttributeSet.cpp">
+      <Filter>Source\ActionAdventure\AbilitySystem\Attributes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionAdventure\AbilitySystem\Attributes\AAHealthAttributeSet.h">
+      <Filter>Source\ActionAdventure\AbilitySystem\Attributes</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ActionAdventure\AbilitySystem\Attributes\AAMovementAttributeSet.cpp">
+      <Filter>Source\ActionAdventure\AbilitySystem\Attributes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionAdventure\AbilitySystem\Attributes\AAMovementAttributeSet.h">
+      <Filter>Source\ActionAdventure\AbilitySystem\Attributes</Filter>
+    </ClInclude>
+    <Filter Include="Source\ActionAdventure\Character">
+      <UniqueIdentifier>{A4960BCC-0F93-3E7C-A58F-043F2DF9F5B2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ActionAdventure\Character\AACharacter.cpp">
+      <Filter>Source\ActionAdventure\Character</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionAdventure\Character\AACharacter.h">
+      <Filter>Source\ActionAdventure\Character</Filter>
+    </ClInclude>
+    <Filter Include="Source\ActionAdventure\GameCore">
+      <UniqueIdentifier>{44A051F3-FDD3-39C2-80F1-F4B934789704}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ActionAdventure\GameCore\AAGameInstance.cpp">
+      <Filter>Source\ActionAdventure\GameCore</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionAdventure\GameCore\AAGameInstance.h">
+      <Filter>Source\ActionAdventure\GameCore</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ActionAdventure\GameCore\AAGameMode.cpp">
+      <Filter>Source\ActionAdventure\GameCore</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionAdventure\GameCore\AAGameMode.h">
+      <Filter>Source\ActionAdventure\GameCore</Filter>
+    </ClInclude>
+    <Filter Include="Source\ActionAdventure\Items">
+      <UniqueIdentifier>{6FCF711C-A243-3896-8700-27B77FBDC0C6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ActionAdventure\Items\AAEquipableItem.cpp">
+      <Filter>Source\ActionAdventure\Items</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionAdventure\Items\AAEquipableItem.h">
+      <Filter>Source\ActionAdventure\Items</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ActionAdventure\Items\AAInventoryComponent.cpp">
+      <Filter>Source\ActionAdventure\Items</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionAdventure\Items\AAInventoryComponent.h">
+      <Filter>Source\ActionAdventure\Items</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ActionAdventure\Items\AAItem.cpp">
+      <Filter>Source\ActionAdventure\Items</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionAdventure\Items\AAItem.h">
+      <Filter>Source\ActionAdventure\Items</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ActionAdventure\Items\AAItemEquipActor.cpp">
+      <Filter>Source\ActionAdventure\Items</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionAdventure\Items\AAItemEquipActor.h">
+      <Filter>Source\ActionAdventure\Items</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ActionAdventure\Items\AAItemsStorage.cpp">
+      <Filter>Source\ActionAdventure\Items</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionAdventure\Items\AAItemsStorage.h">
+      <Filter>Source\ActionAdventure\Items</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ActionAdventure\Items\EquipmentComponent.cpp">
+      <Filter>Source\ActionAdventure\Items</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionAdventure\Items\EquipmentComponent.h">
+      <Filter>Source\ActionAdventure\Items</Filter>
+    </ClInclude>
+    <Filter Include="Source\ActionAdventure\Player">
+      <UniqueIdentifier>{985773FA-7D46-3981-B583-391E96A21FCF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ActionAdventure\Player\AAPlayerCharacter.cpp">
+      <Filter>Source\ActionAdventure\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionAdventure\Player\AAPlayerCharacter.h">
+      <Filter>Source\ActionAdventure\Player</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ActionAdventure\Player\AAPlayerController.cpp">
+      <Filter>Source\ActionAdventure\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ActionAdventure\Player\AAPlayerController.h">
+      <Filter>Source\ActionAdventure\Player</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
